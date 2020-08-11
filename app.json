@@ -63,6 +63,10 @@
       "description": "The video's privacy status. Valid values for this property are: private, public, unlisted",
       "value": "private",
       "required":false
+        },
+    "DATABASE_URL": {
+      "description": "Mongodb database URI from https://cloud.mongodb.com/",
+      "value": ""
     }
    },
    "buildpacks": [
